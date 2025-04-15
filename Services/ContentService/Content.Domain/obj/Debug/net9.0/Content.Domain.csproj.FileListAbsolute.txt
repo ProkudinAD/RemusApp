@@ -1,0 +1,11 @@
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/bin/Debug/net9.0/Content.Domain.deps.json
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/bin/Debug/net9.0/Content.Domain.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/bin/Debug/net9.0/Content.Domain.pdb
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/Debug/net9.0/Content.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/Debug/net9.0/Content.Domain.AssemblyInfoInputs.cache
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/Debug/net9.0/Content.Domain.AssemblyInfo.cs
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/Debug/net9.0/Content.Domain.csproj.CoreCompileInputs.cache
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/Debug/net9.0/Content.Domain.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/Debug/net9.0/refint/Content.Domain.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/Debug/net9.0/Content.Domain.pdb
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/Debug/net9.0/ref/Content.Domain.dll

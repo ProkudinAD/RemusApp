@@ -1,0 +1,17 @@
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/bin/Debug/net9.0/Content.Application.deps.json
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/bin/Debug/net9.0/Content.Application.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/bin/Debug/net9.0/Content.Application.pdb
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/bin/Debug/net9.0/Content.Contracts.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/bin/Debug/net9.0/Content.Domain.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/bin/Debug/net9.0/Content.Domain.pdb
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/bin/Debug/net9.0/Content.Contracts.pdb
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/Content.Application.csproj.AssemblyReference.cache
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/Content.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/Content.Application.AssemblyInfoInputs.cache
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/Content.Application.AssemblyInfo.cs
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/Content.Application.csproj.CoreCompileInputs.cache
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/Content..E101C158.Up2Date
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/Content.Application.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/refint/Content.Application.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/Content.Application.pdb
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/ref/Content.Application.dll

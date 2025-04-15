@@ -1,0 +1,487 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/Content.WebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/Content.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/Content.Application.csproj",
+        "projectName": "Content.Application",
+        "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/Content.Application.csproj",
+        "packagesPath": "/Users/alexprokudin/.nuget/packages/",
+        "outputPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexprokudin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Contracts/Content.Contracts.csproj": {
+                "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Contracts/Content.Contracts.csproj"
+              },
+              "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/Content.Domain.csproj": {
+                "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/Content.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Ardalis.Result": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Contracts/Content.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Contracts/Content.Contracts.csproj",
+        "projectName": "Content.Contracts",
+        "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Contracts/Content.Contracts.csproj",
+        "packagesPath": "/Users/alexprokudin/.nuget/packages/",
+        "outputPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexprokudin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/Content.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/Content.Domain.csproj",
+        "projectName": "Content.Domain",
+        "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/Content.Domain.csproj",
+        "packagesPath": "/Users/alexprokudin/.nuget/packages/",
+        "outputPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexprokudin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Infrastructure/Content.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Infrastructure/Content.Infrastructure.csproj",
+        "projectName": "Content.Infrastructure",
+        "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Infrastructure/Content.Infrastructure.csproj",
+        "packagesPath": "/Users/alexprokudin/.nuget/packages/",
+        "outputPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexprokudin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/Content.Application.csproj": {
+                "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/Content.Application.csproj"
+              },
+              "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/Content.Domain.csproj": {
+                "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/Content.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/Content.Migrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/Content.Migrations.csproj",
+        "projectName": "Content.Migrations",
+        "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/Content.Migrations.csproj",
+        "packagesPath": "/Users/alexprokudin/.nuget/packages/",
+        "outputPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexprokudin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Infrastructure/Content.Infrastructure.csproj": {
+                "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Infrastructure/Content.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/Content.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/Content.WebApi.csproj",
+        "projectName": "Content.WebApi",
+        "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/Content.WebApi.csproj",
+        "packagesPath": "/Users/alexprokudin/.nuget/packages/",
+        "outputPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alexprokudin/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/Content.Application.csproj": {
+                "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/Content.Application.csproj"
+              },
+              "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Contracts/Content.Contracts.csproj": {
+                "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Contracts/Content.Contracts.csproj"
+              },
+              "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/Content.Domain.csproj": {
+                "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/Content.Domain.csproj"
+              },
+              "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Infrastructure/Content.Infrastructure.csproj": {
+                "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Infrastructure/Content.Infrastructure.csproj"
+              },
+              "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/Content.Migrations.csproj": {
+                "projectPath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/Content.Migrations.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "dotenv.net": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

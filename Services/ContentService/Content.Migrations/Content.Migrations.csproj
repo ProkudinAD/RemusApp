@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Content.Infrastructure\Content.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <StartupProject>../Content.WebApi</StartupProject> <!-- This is the path to the startup project -->
+    <EFProject>RemusApp/Services/ContentService/Content.Migrations/Content.Migrations.csproj</EFProject> <!-- Это путь к проекту с DbContext -->
+    <EFStartupProject>RemusApp/Services/ContentService/Content.WebApi/Content.WebApi.csproj</EFStartupProject> <!-- Это путь к стартовому проекту с DbContext -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.2" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
