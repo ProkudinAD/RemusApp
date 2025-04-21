@@ -1,0 +1,46 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch OcelotApiGateway",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build OcelotApiGateway",
+        "program": "${workspaceFolder}/ApiGateways/OcelotApiGateway/bin/Debug/net9.0/OcelotApiGateway.dll",
+        "args": [],
+        "cwd": "${workspaceFolder}/ApiGateways/OcelotApiGateway",
+        "stopAtEntry": false,
+        "serverReadyAction": {
+          "action": "openExternally",
+          "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+        },
+        "env": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+      },
+      {
+        "name": "Launch ContentService",
+        "type": "coreclr",
+        "request": "launch",
+        "preLaunchTask": "build ContentService",
+        "program": "${workspaceFolder}/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Content.WebApi.dll", 
+        "args": [],
+        "cwd": "${workspaceFolder}/Services/ContentService",
+        "stopAtEntry": false,
+        "serverReadyAction": {
+          "action": "openExternally",
+          "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+        },
+        "env": {
+          "ASPNETCORE_ENVIRONMENT": "Development",
+          "ASPNETCORE_URLS": "http://localhost:5119"
+        }
+      }
+    ],
+    "compounds": [
+      {
+        "name": "Launch All",
+        "configurations": ["Launch OcelotApiGateway", "Launch ContentService"]
+      }
+    ]
+  }

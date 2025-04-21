@@ -9,3 +9,4 @@
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Contracts/obj/Debug/net9.0/refint/Content.Contracts.dll
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Contracts/obj/Debug/net9.0/Content.Contracts.pdb
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Contracts/obj/Debug/net9.0/ref/Content.Contracts.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Contracts/obj/Debug/net9.0/Content.Contracts.sourcelink.json

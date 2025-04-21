@@ -1,0 +1,50 @@
+{
+    "GlobalConfiguration": {
+      "BaseUrl": "http://localhost:5197"
+    },
+    "Routes": [
+      {
+        "UpstreamPathTemplate": "/api/news/list",
+        "UpstreamHttpMethod": ["GET"],
+        "DownstreamPathTemplate": "/api/news/list",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5119
+          }
+        ],
+        "FileCacheOptions": {
+          "TtlSeconds": 90,
+          "Region": "newslist"
+        },
+        "SwaggerKey": "content"
+      },
+      {
+        "UpstreamPathTemplate": "/api/news/save",
+        "UpstreamHttpMethod": ["POST"],
+        "DownstreamPathTemplate": "/api/news/save",
+        "DownstreamScheme": "http",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 5119
+          }
+        ],
+        "SwaggerKey": "content"
+      }
+    ],
+    "SwaggerEndPoints": [
+      {
+        "Key": "content",
+        "Config": [
+          {
+            "Name": "Content API",
+            "Version": "v1",
+            "Url": "http://localhost:5119/swagger/v1/swagger.json"
+          }
+        ]
+      }
+    ]
+  }
+  

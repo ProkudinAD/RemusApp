@@ -1,0 +1,41 @@
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  ocelot:
+    build:
+      context: .
+      dockerfile: ApiGateways/OcelotApiGateway/Dockerfile
+    ports:
+      - "${OCELOT_PORT}:${OCELOT_PORT}"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - ASPNETCORE_URLS=${ASPNETCORE_URLS_OCELOT}
+    profiles:
+      - dev
+
+  content:
+    build:
+      context: .
+      dockerfile: Services/ContentService/Content.WebApi/Dockerfile
+    ports:
+      - "${CONTENT_PORT}:${CONTENT_PORT}"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - ASPNETCORE_URLS=${ASPNETCORE_URLS_CONTENT}
+    profiles:
+      - dev
+
+
+# Определение томов в конце файла
+volumes:
+  postgres_data:
+    driver: local

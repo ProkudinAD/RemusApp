@@ -19,3 +19,4 @@
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Infrastructure/obj/Debug/net9.0/Content.Infrastructure.pdb
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Infrastructure/obj/Debug/net9.0/Content.Infrastructure.genruntimeconfig.cache
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Infrastructure/obj/Debug/net9.0/ref/Content.Infrastructure.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Infrastructure/obj/Debug/net9.0/Content.Infrastructure.sourcelink.json

@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build OcelotApiGateway",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+          "build",
+          "${workspaceFolder}/ApiGateways/OcelotApiGateway/OcelotApiGateway.csproj"
+        ],
+        "problemMatcher": "$msCompile"
+      },
+      {
+        "label": "build ContentService",
+        "command": "dotnet",
+        "type": "process",
+        "args": [
+          "build",
+          "${workspaceFolder}/Services/ContentService/Content.WebApi/Content.WebApi.csproj"
+        ],
+        "problemMatcher": "$msCompile"
+      }
+    ]
+  }

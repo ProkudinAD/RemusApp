@@ -21,3 +21,4 @@
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.pdb
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.genruntimeconfig.cache
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/ref/Content.Migrations.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.sourcelink.json

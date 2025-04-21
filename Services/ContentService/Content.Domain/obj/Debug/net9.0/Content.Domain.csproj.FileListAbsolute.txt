@@ -9,3 +9,4 @@
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/Debug/net9.0/refint/Content.Domain.dll
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/Debug/net9.0/Content.Domain.pdb
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/Debug/net9.0/ref/Content.Domain.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Domain/obj/Debug/net9.0/Content.Domain.sourcelink.json
