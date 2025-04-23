@@ -32,7 +32,6 @@ namespace Content.WebApi
                 options.UseNpgsql(_configuration.GetConnectionString("DefaultConnection"),
                     b => b.MigrationsAssembly("Content.Migrations"));  // Указание сборки с миграциями
             });
-
             services.AddAutoMapper(typeof(ContentApplicationModule));
 
             services.AddScoped<IUnitOfWork, UnitOfWork>();

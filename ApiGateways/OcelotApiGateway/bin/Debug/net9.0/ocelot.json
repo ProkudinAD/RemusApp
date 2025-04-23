@@ -10,7 +10,7 @@
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
-            "Host": "localhost",
+            "Host": "content",
             "Port": 5119
           }
         ],
@@ -27,7 +27,7 @@
         "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
-            "Host": "localhost",
+            "Host": "content",
             "Port": 5119
           }
         ],
@@ -41,7 +41,7 @@
           {
             "Name": "Content API",
             "Version": "v1",
-            "Url": "http://localhost:5119/swagger/v1/swagger.json"
+            "Url": "http://content:5119/swagger/v1/swagger.json"
           }
         ]
       }

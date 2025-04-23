@@ -64,3 +64,4 @@
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Microsoft.Extensions.FileSystemGlobbing.dll
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/obj/Debug/net9.0/Content.WebApi.sourcelink.json
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll

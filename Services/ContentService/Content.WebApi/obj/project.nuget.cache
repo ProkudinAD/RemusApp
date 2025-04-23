@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fSgoqHqqxYM=",
+  "dgSpecHash": "ReVuqMxAlYQ=",
   "success": true,
   "projectFilePath": "/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/Content.WebApi.csproj",
   "expectedPackageFiles": [
@@ -19,6 +19,7 @@
     "/Users/alexprokudin/.nuget/packages/microsoft.extensions.caching.memory/9.0.0/microsoft.extensions.caching.memory.9.0.0.nupkg.sha512",
     "/Users/alexprokudin/.nuget/packages/microsoft.extensions.configuration/9.0.4/microsoft.extensions.configuration.9.0.4.nupkg.sha512",
     "/Users/alexprokudin/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.4/microsoft.extensions.configuration.abstractions.9.0.4.nupkg.sha512",
+    "/Users/alexprokudin/.nuget/packages/microsoft.extensions.configuration.environmentvariables/9.0.4/microsoft.extensions.configuration.environmentvariables.9.0.4.nupkg.sha512",
     "/Users/alexprokudin/.nuget/packages/microsoft.extensions.configuration.fileextensions/9.0.4/microsoft.extensions.configuration.fileextensions.9.0.4.nupkg.sha512",
     "/Users/alexprokudin/.nuget/packages/microsoft.extensions.configuration.json/9.0.4/microsoft.extensions.configuration.json.9.0.4.nupkg.sha512",
     "/Users/alexprokudin/.nuget/packages/microsoft.extensions.configuration.usersecrets/9.0.4/microsoft.extensions.configuration.usersecrets.9.0.4.nupkg.sha512",

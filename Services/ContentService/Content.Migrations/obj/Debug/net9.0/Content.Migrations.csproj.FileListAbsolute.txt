@@ -1,3 +1,9 @@
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.csproj.AssemblyReference.cache
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.AssemblyInfoInputs.cache
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.AssemblyInfo.cs
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.csproj.CoreCompileInputs.cache
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.sourcelink.json
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/bin/Debug/net9.0/Content.Migrations.deps.json
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/bin/Debug/net9.0/Content.Migrations.runtimeconfig.json
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/bin/Debug/net9.0/Content.Migrations.dll
@@ -10,15 +16,9 @@
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/bin/Debug/net9.0/Content.Application.pdb
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/bin/Debug/net9.0/Content.Contracts.pdb
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/bin/Debug/net9.0/Content.Domain.pdb
-/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.csproj.AssemblyReference.cache
-/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.GeneratedMSBuildEditorConfig.editorconfig
-/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.AssemblyInfoInputs.cache
-/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.AssemblyInfo.cs
-/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.csproj.CoreCompileInputs.cache
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content..BC5BEB63.Up2Date
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.dll
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/refint/Content.Migrations.dll
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.pdb
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.genruntimeconfig.cache
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/ref/Content.Migrations.dll
-/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Migrations/obj/Debug/net9.0/Content.Migrations.sourcelink.json

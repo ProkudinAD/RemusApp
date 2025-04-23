@@ -9,6 +9,7 @@ COPY ["Services/ContentService/Content.Application/Content.Application.csproj", 
 COPY ["Services/ContentService/Content.Domain/Content.Domain.csproj", "Services/ContentService/Content.Domain/"]
 COPY ["Services/ContentService/Content.Infrastructure/Content.Infrastructure.csproj", "Services/ContentService/Content.Infrastructure/"]
 COPY ["Services/ContentService/Content.Contracts/Content.Contracts.csproj", "Services/ContentService/Content.Contracts/"]
+
 RUN dotnet restore "Services/ContentService/Content.WebApi/Content.WebApi.csproj"
 COPY . .
 WORKDIR "/src/Services/ContentService/Content.WebApi"

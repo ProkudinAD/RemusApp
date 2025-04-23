@@ -9,18 +9,13 @@ services:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-
-  ocelot:
-    build:
-      context: .
-      dockerfile: ApiGateways/OcelotApiGateway/Dockerfile
-    ports:
-      - "${OCELOT_PORT}:${OCELOT_PORT}"
-    environment:
-      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
-      - ASPNETCORE_URLS=${ASPNETCORE_URLS_OCELOT}
-    profiles:
-      - dev
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
 
   content:
     build:
@@ -31,11 +26,47 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
       - ASPNETCORE_URLS=${ASPNETCORE_URLS_CONTENT}
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - app-network
     profiles:
       - dev
 
+  migrate:
+    build:
+      context: .
+      dockerfile: Services/ContentService/Content.Migrations/Dockerfile
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - ConnectionStrings__DefaultConnection=Host=postgres;Port=5432;Database=${POSTGRES_DB};Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+    networks:
+      - app-network
 
-# Определение томов в конце файла
+  ocelot:
+    build:
+      context: .
+      dockerfile: ApiGateways/OcelotApiGateway/Dockerfile
+    ports:
+      - "${OCELOT_PORT}:${OCELOT_PORT}"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=${ASPNETCORE_ENVIRONMENT}
+      - ASPNETCORE_URLS=${ASPNETCORE_URLS_OCELOT}
+    networks:
+      - app-network
+    depends_on:
+      - content
+    profiles:
+      - dev
+
 volumes:
   postgres_data:
-    driver: local
+
+networks:
+  app-network:
+    driver: bridge

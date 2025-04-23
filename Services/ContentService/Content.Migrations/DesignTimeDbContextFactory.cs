@@ -12,8 +12,10 @@ namespace Content.Migrations
             var optionsBuilder = new DbContextOptionsBuilder<ContentDbContext>();
             var configuration = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json")
+                .AddJsonFile("appsettings.json", optional: true)
+                .AddEnvironmentVariables()
                 .Build();
+            var d = configuration.GetConnectionString("DefaultConnection");
 
             optionsBuilder.UseNpgsql(configuration.GetConnectionString("DefaultConnection"),
                 b => b.MigrationsAssembly("Content.Migrations"));
