@@ -4,6 +4,8 @@ using Content.Application.Common;
 using Content.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Redis.Cache;
+using Redis.Cache.Cache.Interface;
 
 namespace Content.WebApi
 {
@@ -25,12 +27,11 @@ namespace Content.WebApi
                 options.SerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingDefault;
             });
 
-            // Добавляем DbContext
             services.AddDbContext<ContentDbContext>(
             options =>
             {
                 options.UseNpgsql(_configuration.GetConnectionString("DefaultConnection"),
-                    b => b.MigrationsAssembly("Content.Migrations"));  // Указание сборки с миграциями
+                    b => b.MigrationsAssembly("Content.Migrations")); 
             });
             services.AddAutoMapper(typeof(ContentApplicationModule));
 
@@ -41,6 +42,7 @@ namespace Content.WebApi
                 configuration.RegisterServicesFromAssembly(typeof(ContentApplicationModule).Assembly);
             });
 
+            //todo настроить запрос
             services.AddCors(options =>
             {
                 options.AddDefaultPolicy(builder =>
@@ -50,6 +52,14 @@ namespace Content.WebApi
                         .AllowAnyMethod(); // Разрешить любые HTTP-методы
                 });
             });
+
+            services.AddStackExchangeRedisCache(Options =>
+            {
+                Options.Configuration = _configuration.GetConnectionString("Redis");
+                Options.InstanceName = "ContentCache";
+            });
+
+            services.AddScoped<ICacheService, RedisCacheService>();
 
             services.AddControllers();
 
@@ -86,9 +96,9 @@ namespace Content.WebApi
                 // Добавляем поддержку OPTIONS-запросов
                 endpoints.MapMethods("{*path}", new[] { "OPTIONS" }, (context) =>
                 {
-                    context.Response.Headers.Add("Access-Control-Allow-Origin", "http://localhost:4200");
-                    context.Response.Headers.Add("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
-                    context.Response.Headers.Add("Access-Control-Allow-Headers", "Content-Type, Authorization");
+                    context.Response.Headers.Append("Access-Control-Allow-Origin", "http://localhost:4200");
+                    context.Response.Headers.Append("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+                    context.Response.Headers.Append("Access-Control-Allow-Headers", "Content-Type, Authorization");
                     context.Response.StatusCode = 200;
                     return Task.CompletedTask;
                 });

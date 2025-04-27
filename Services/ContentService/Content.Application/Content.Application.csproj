@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Content.Domain\Content.Domain.csproj" />
     <ProjectReference Include="..\Content.Contracts\Content.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\shared\Redis.Cache\Redis.Cache.csproj" />
   </ItemGroup>
 
   <ItemGroup>

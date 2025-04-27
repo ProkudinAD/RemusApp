@@ -16,3 +16,5 @@
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/Content.Application.pdb
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/ref/Content.Application.dll
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/obj/Debug/net9.0/Content.Application.sourcelink.json
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/bin/Debug/net9.0/Redis.Cache.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.Application/bin/Debug/net9.0/Redis.Cache.pdb

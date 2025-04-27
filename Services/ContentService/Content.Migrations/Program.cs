@@ -6,6 +6,9 @@ namespace Content.Migrations;
 
 public class Program
 {
+    // Todo: This is a temporary solution.
+    // исправть миграцию на существущую БД 
+    // реализовать заполнение БД данными 
     public static async Task Main(string[] args)
     {
         var configuration = new ConfigurationBuilder()

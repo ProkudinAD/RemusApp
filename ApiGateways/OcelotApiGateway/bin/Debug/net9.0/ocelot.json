@@ -14,10 +14,6 @@
             "Port": 5119
           }
         ],
-        "FileCacheOptions": {
-          "TtlSeconds": 90,
-          "Region": "newslist"
-        },
         "SwaggerKey": "content"
       },
       {

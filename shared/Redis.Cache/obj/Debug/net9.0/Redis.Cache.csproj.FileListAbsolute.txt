@@ -1,0 +1,13 @@
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/bin/Debug/net9.0/Redis.Cache.deps.json
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/bin/Debug/net9.0/Redis.Cache.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/bin/Debug/net9.0/Redis.Cache.pdb
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/obj/Debug/net9.0/Redis.Cache.csproj.AssemblyReference.cache
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/obj/Debug/net9.0/Redis.Cache.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/obj/Debug/net9.0/Redis.Cache.AssemblyInfoInputs.cache
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/obj/Debug/net9.0/Redis.Cache.AssemblyInfo.cs
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/obj/Debug/net9.0/Redis.Cache.csproj.CoreCompileInputs.cache
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/obj/Debug/net9.0/Redis.Cache.sourcelink.json
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/obj/Debug/net9.0/Redis.Cache.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/obj/Debug/net9.0/refint/Redis.Cache.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/obj/Debug/net9.0/Redis.Cache.pdb
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/shared/Redis.Cache/obj/Debug/net9.0/ref/Redis.Cache.dll

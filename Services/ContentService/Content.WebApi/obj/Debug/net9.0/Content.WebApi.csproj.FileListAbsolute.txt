@@ -65,3 +65,12 @@
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/obj/Debug/net9.0/Content.WebApi.sourcelink.json
 /Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Microsoft.Extensions.Caching.StackExchangeRedis.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Pipelines.Sockets.Unofficial.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/StackExchange.Redis.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Redis.Cache.dll
+/Users/alexprokudin/GitHub/App-Palatine/RemusApp/Services/ContentService/Content.WebApi/bin/Debug/net9.0/Redis.Cache.pdb
